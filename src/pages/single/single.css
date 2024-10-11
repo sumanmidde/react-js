@@ -1,0 +1,95 @@
+.single {
+    display: flex;
+    width: 100%;
+
+}
+
+.singleContainer {
+    flex: 6;
+
+
+
+}
+
+.top {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    margin-top: 90px;
+
+
+
+}
+
+.right {
+    flex: 2;
+}
+
+
+
+.left {
+    flex: 1;
+    box-shadow: 5px 5px 5px 5px wheat;
+    -webkit-box-shadow: 2px 3px 3px 2px lightblue;
+    padding: 20px;
+    position: relative;
+
+
+}
+
+.leftTitle {
+    font-size: 15px;
+    color: gray;
+}
+
+.editButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 12px;
+    color: lightpink;
+    background-color: rgba(240, 255, 255, 0.308);
+    cursor: pointer;
+}
+
+.itemTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: gray;
+
+}
+
+.titleDetalis {
+    margin-bottom: 5px;
+    font-size: small;
+    color: darkgrey;
+
+}
+
+.detailsKey {
+    font-size: small;
+}
+
+.detailsValue {
+    font-size: small;
+}
+
+.imgItem {
+    display: flex;
+    gap: 20px;
+
+    .itemImg {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+.buttom {
+    box-shadow: 5px 5px 5px 5px wheat;
+    -webkit-box-shadow: 2px 3px 3px 2px lightblue;
+    margin-top: 100px;
+
+}

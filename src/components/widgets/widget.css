@@ -1,0 +1,58 @@
+.widget {
+    padding: 20px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px 5px wheat;
+    -webkit-box-shadow: 2px 3px 6px 2px lightblue;
+    border-radius: 10px;
+    height: 100px;
+}
+
+.leftl,
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+}
+
+.count {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.link {
+    width: max-content;
+    font-size: 15px;
+    border-bottom: 1px solid gray;
+
+}
+
+.percentage {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+
+    &.positive {
+        color: green;
+    }
+
+    &.nagitive {
+        color: red;
+    }
+
+}
+
+.personlogo {
+    font-size: 15px;
+    padding: 5px;
+    /* background-color: rgba(0, 17, 255, 0.363); */
+    border-radius: 5px;
+    align-self: flex-end;
+}

@@ -1,0 +1,37 @@
+.tableList {
+    display: flex;
+
+
+
+
+
+    .imgWrapper {
+
+        align-items: center;
+
+        .image {
+            height: 32px;
+            width: 32px;
+            border-radius: 50%;
+            margin-right: 5px;
+            object-fit: cover;
+        }
+    }
+
+    .status {
+        padding: 5px;
+        border-radius: 5px;
+        forced-color-adjust: gray;
+
+
+        &.approved {
+            color: green;
+            background-color: rgba(15, 173, 15, 0.205);
+        }
+
+        &.pending {
+            color: red;
+            background-color: rgba(255, 0, 0, 0.089);
+        }
+    }
+}
