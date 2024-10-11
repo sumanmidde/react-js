@@ -1,0 +1,80 @@
+.featured {
+    flex: 2;
+    box-shadow: 5px 5px 5px 5px rgba(245, 222, 179, 0.836);
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main {
+    font-size: 15px;
+    font-weight: 400px;
+
+}
+
+.bottom {
+    display: flex;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.featuredChart {
+    width: 150px;
+    height: 150px;
+
+}
+
+.title {
+    font-weight: 300;
+    color: gray;
+
+}
+
+.amount {
+    font-size: 30px;
+}
+
+.desc {
+    font-size: 12px;
+    text-align: center;
+    color: gray;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    .itemTitle {
+        font-size: 15px;
+        color: gray;
+    }
+
+    .item1 {
+        text-align: center;
+    }
+
+
+    .itemResult {
+        display: flex;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 14px;
+
+        &.positive {
+            color: green;
+        }
+
+        &.negitive {
+            color: red;
+        }
+
+    }
+}

@@ -1,0 +1,14 @@
+.chart {
+    flex: 5;
+    color: gray;
+    padding: 20px;
+
+}
+
+.head {
+    margin: 20px;
+}
+
+.chartgrid {
+    stroke: rgba(240, 255, 255, 0.432);
+}
